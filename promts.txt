@@ -27,3 +27,37 @@ cabezal ocupe toda la pagina y no solo un pequeño cuadro en el centro quiero qu
 productos, que los botones aun no sean funcionales que solo queden como muestra ,
 mejoremos lo visual y centrar toda la pagina con algun codigo que ayude eso que se acomode todas las cosas para celular o 
 ordenador porque la pagina sera para todos los dispositivos
+
+ETAPA 3 -- INCORPORACION DE CONTENIDO 
+
+-- PRIMER PROMT ( AQUI PEDI A COPILOT UNA MEJORA VISUAL Y AÑADIR CONTENIDO CON OTRO NOMBRE DEL PRODUCTO INVENTADO POR MI)
+
+ahora quiero que añadas un imagen de un celular en el apartado designador , quer los botones ahora funciones , 
+el boton de carrito sea desplegable al momento de pasar el cursor por el , al momento de presionar el boton de 
+agregar carrito se añada al carrito y al momento de presionar en el boton de comprar se habra un apartado 
+sobreprosicionado donde te pidan datos de la tarjeta , datos de direccion y el boton de pagar ahora , el 
+boton de carrito adaptalo para celular igual ya que no hay cursor en celular , quiero que al momento de hacer 
+click en el boton del carrito te lleve a otro apartado distinto , NO en la misma pagina de inicio sino otra 
+donde puedas ver los detalles del carrito , si no añadiste nada no aparecera nada , pero siempre manteniendo 
+el pie y cabeza de la pagina , en categorias que exista 3 apartados desplegables que seria el de celulares , 
+seguimiento de producto y contacto , en perfil que sea algo demo que al momento de hacerle click te pida crearte 
+una cuenta de la pagina solo con tu nombre y apellido , el titulo del producto sera "TELEFONO X PLUS " En la 
+descripcion que diga , " este telefono contiene la mejor y alta tecnologia del mercado con los mejores diseños 
+ergonomicos y alta facilidad de portar , quiero quiero que le añadas ahi algunos datos extras igual en los botones 
+añade informacion extra donde se vea una mejora de contenido en todo
+
+( AÑADI LA IMAGEN MANUALMENTE )
+
+-- SEGUNDO PROMT ( AÑADIR MAS CONTENIDO , BENEFICIOS Y CARACTERISTICAS DEL PRODUCTO)
+
+quiero que acomoden la imagne al lado derecho de la descripcion y que abajo coloques el boton del boton de comprar o 
+añadir producto quiero que coloques solo las caracteristicas del celular que sean las caracteristicas del samsung s26 
+ultra y en la descripcion no coloques ninguna caracteristica solo coloca una descripcion de los benficios del celular y 
+la alta tecnologia que tiene ahi le añades contido, quiero que mejores el titulo , quiero que se centre mejor en el medio 
+porque esta puesto para un lado izquierdo y queda feo , quiero que este centro en el medio para que quede ABAJO DONDE DICE 
+"NUEVO" , NO FUNCIONAND LOS BOTONES COMO TE LO HABIA PEDIDO , NO FUNCIONA EL BOTON DE PERFIL QUE ERA PARA CREAR LA CUENTA 
+CON SOLO EL NOMBRE Y APELLIDO , NO FUNCIONA EL BOTON DE COMPRAR DONDE TE SALGA EL CUADRO PARA LLENAR TUS DATOS Y LO DE LA 
+TARJETA , NO FUNCIONA EL BOTON DE AÑADIR CARRITO NO SE AÑADE AL CARRITO , NO FUNCIONA AL HACER CLICK EN EL CARRITO NO ME 
+MANDA A OTRO APARTADO COMO TE DIJE DONDE VEA LO QUE TENGO DEL CARRITO PARA PODER COMPRAR, OSEA TIENE QUE DECIRME CUANTOS 
+PRODUCTOS TENGO AÑADIDOS Y EL BOTON DE COMPRAR O ELIMINAR PRODUCTO , EN EL DESPLEGABLE DE CATEGORIAS AL HACER CLICK EN 
+CELULARES ME MANDE AL INICIO Y ESO ES TODO , QUIERO QUE AÑADAS CONTENIDO Y MEJORA VISUAL CON ANIMACINES MAS TRABAJAS
