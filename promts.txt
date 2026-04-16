@@ -7,16 +7,23 @@ porque sera para una pagina de un celular , quiero que en la estructura tenga un
 un carrito de compras arriba a la derecha , 
 titulo, descripcion del producto , un pie de pagina , solo quiero la estructura , creamelo
 
--- SEGUNDO PROMT YA QUE LA IA ME HABIA DADO LO QUE QUERIA PERO NO HECHA CORRECTAMENTE
+-- SEGUNDO PROMT (YA QUE LA IA ME HABIA DADO LO QUE QUERIA PERO NO HECHA CORRECTAMENTE)
 
 acomodalo para ver todo en el ordenador de manera correcta, todo esta muy junto en el centro y deberia de verse expandido 
 en todo el espacio de la pagina ,
 estas dejando mucho espacio sin utilizar en toda la pagina y solo estas utilizando un peque espacio en el centro , 
 arrigla todo el tamaño
-
-
-ETAPA 2 -- 
-
--- PRIMER PROMT
-
 genera un layout responsive con grid que ocupe todo el ancho
+
+
+ETAPA 2 -- MEJORA VISUAL
+
+-- PRIMER PROMT ( PEDI A COPILOT QUE MEJORE LO VISUAL SIGA CENTRANDO LA PAGINA Y QUE SEA PARA CELULAR Y ORDENADOR)
+
+quiero que mejores el diseño visual , añadiendo botones interactivos ,
+un apartado donde aparezca el telefono en grande, yo colocare la imagen tu solo dejame el apartado ,
+quiero que qu ese pequeño cuadro que tiene en el centro , lo centres bien en toda la pagina , para que el pie de cabeza , 
+cabezal ocupe toda la pagina y no solo un pequeño cuadro en el centro quiero que añadas un boton de comprar y de añadir 
+productos, que los botones aun no sean funcionales que solo queden como muestra ,
+mejoremos lo visual y centrar toda la pagina con algun codigo que ayude eso que se acomode todas las cosas para celular o 
+ordenador porque la pagina sera para todos los dispositivos

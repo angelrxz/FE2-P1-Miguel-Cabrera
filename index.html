@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="phone-shell">
+    <div class="page-shell">
       <header class="top-bar">
+        <div class="logo-area">
+          <span class="brand-name">Mi Tienda Móvil</span>
+          <span class="brand-tag">Celulares y accesorios</span>
+        </div>
         <div class="menu-options">
           <button class="menu-button">Inicio</button>
           <button class="menu-button">Categorías</button>
@@ -19,13 +23,27 @@
 
       <main class="content-area">
         <section class="product-card">
-          <div class="product-copy">
-            <h1 class="product-title">Teléfono inteligente X</h1>
-            <p class="product-description">
-              Un diseño compacto y elegante con todas las funciones esenciales para
-              tu día a día. Ideal para uso móvil, redes sociales y conectividad.
-            </p>
+          <div class="product-head">
+            <div class="product-copy">
+              <span class="product-badge">Nuevo</span>
+              <h1 class="product-title">Teléfono inteligente X</h1>
+              <p class="product-description">
+                Un diseño moderno y elegante con pantalla grande, batería duradera
+                y cámara pro para capturar cada momento. Ideal para todos los
+                dispositivos, en casa o en la calle.
+              </p>
+
+              <div class="product-actions">
+                <button class="action-button primary">Comprar ahora</button>
+                <button class="action-button secondary">Agregar al carrito</button>
+              </div>
+            </div>
+
+            <div class="product-visual">
+              <div class="image-box">Aquí irá la imagen del teléfono</div>
+            </div>
           </div>
+
           <div class="product-details">
             <div class="detail-line">
               <span>Precio</span>
@@ -44,7 +62,7 @@
       </main>
 
       <footer class="footer-bar">
-        <p>© 2026 Mi Tienda Móvil</p>
+        <p>© 2026 Mi Tienda Móvil. Diseño responsive para todos los dispositivos.</p>
       </footer>
     </div>
   </body>
