@@ -1,0 +1,22 @@
+ETAPA 1 - ESTRUCTURA PRINCIPAL 
+
+-- PRIMERO PROMT
+
+crea la estructura de mi pagina web , sin animacion con un color dark , 
+porque sera para una pagina de un celular , quiero que en la estructura tenga un cabeza donde tenga opciones , 
+un carrito de compras arriba a la derecha , 
+titulo, descripcion del producto , un pie de pagina , solo quiero la estructura , creamelo
+
+-- SEGUNDO PROMT YA QUE LA IA ME HABIA DADO LO QUE QUERIA PERO NO HECHA CORRECTAMENTE
+
+acomodalo para ver todo en el ordenador de manera correcta, todo esta muy junto en el centro y deberia de verse expandido 
+en todo el espacio de la pagina ,
+estas dejando mucho espacio sin utilizar en toda la pagina y solo estas utilizando un peque espacio en el centro , 
+arrigla todo el tamaño
+
+
+ETAPA 2 -- 
+
+-- PRIMER PROMT
+
+genera un layout responsive con grid que ocupe todo el ancho

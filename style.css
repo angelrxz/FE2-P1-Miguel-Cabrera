@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #0b0d12;
+  color: #f1f3f6;
+  font-family: Inter, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 40px;
+}
+
+.phone-shell {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 24px;
+  width: min(100%, 1200px);
+  min-height: 80vh;
+  margin: auto;
+  background: #11151f;
+  border: 1px solid #1f2937;
+  border-radius: 32px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px 32px;
+  background: #141b26;
+}
+
+.menu-options {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.menu-button,
+.cart-button {
+  border: none;
+  background: #1f2937;
+  color: #f8fafc;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.cart-button {
+  background: #2d3a4f;
+}
+
+.content-area {
+  padding: 40px 32px;
+  width: 100%;
+}
+
+.product-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.product-details {
+  display: grid;
+  gap: 16px;
+  padding: 24px;
+  background: #141b26;
+  border-radius: 24px;
+}
+
+.detail-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.detail-line strong {
+  color: #f8fafc;
+}
+
+.product-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+}
+
+.product-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #cbd5e1;
+}
+
+.footer-bar {
+  padding: 24px 32px;
+  text-align: center;
+  background: #12161f;
+  border-top: 1px solid #1f2937;
+  font-size: 0.95rem;
+}
+
+@media (min-width: 860px) {
+  .product-card {
+    grid-template-columns: 1.35fr 0.9fr;
+    align-items: start;
+  }
+}
+
+@media (max-width: 360px) {
+  .top-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .menu-options {
+    justify-content: space-between;
+  }
+}
