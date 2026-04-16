@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carrito - Mi Tienda Móvil</title>
+    <title>Carrito - SUPERCELL</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,23 +13,40 @@
           <span class="brand-name">SUPERCELL</span>
           <span class="brand-tag">Celulares y accesorios</span>
         </div>
-        <div class="menu-options">
+
+        <nav class="menu-options">
           <a href="index.html" class="menu-button">Inicio</a>
-          <button class="menu-button">Categorías</button>
-          <button class="menu-button">Perfil</button>
-        </div>
-        <button class="cart-button">Carrito</button>
+          <div class="dropdown">
+            <button class="menu-button dropdown-toggle" type="button">Categorías</button>
+            <div class="dropdown-content">
+              <a href="index.html">Celulares</a>
+              <a href="index.html#seguimiento">Seguimiento de Producto</a>
+              <a href="index.html#contacto">Contacto</a>
+            </div>
+          </div>
+          <button class="menu-button" id="profile-btn" type="button">Perfil</button>
+        </nav>
+
+        <button class="cart-button" id="cart-home-btn" type="button">Volver al inicio</button>
       </header>
 
       <main class="content-area">
         <section class="cart-section">
-          <h2>Tu Carrito</h2>
-          <div id="cart-items" class="cart-items">
-            <!-- Items del carrito se agregarán aquí -->
+          <div class="cart-header">
+            <div>
+              <h2>Tu Carrito</h2>
+              <p class="cart-note">Revisa tus productos añadidos y finaliza tu compra.</p>
+            </div>
+            <div class="cart-status">
+              <span id="cart-count">0</span> producto(s)
+            </div>
           </div>
+
+          <div id="cart-items" class="cart-items"></div>
+
           <div class="cart-total">
             <p>Total: $<span id="total-price">0</span></p>
-            <button class="action-button primary" id="checkout-btn">Proceder al Pago</button>
+            <button class="action-button primary" id="checkout-btn" type="button">Proceder al Pago</button>
           </div>
         </section>
       </main>
@@ -38,7 +55,55 @@
         <p>© 2026 SUPERCELL. Diseño responsive para todos los dispositivos.</p>
       </footer>
     </div>
+
+    <div id="checkout-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Información de Pago</h2>
+        <form id="checkout-form">
+          <div class="form-group">
+            <label for="card-number">Número de Tarjeta</label>
+            <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required />
+          </div>
+          <div class="form-group split-group">
+            <div>
+              <label for="expiry">Fecha de Expiración</label>
+              <input type="text" id="expiry" placeholder="MM/AA" required />
+            </div>
+            <div>
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" placeholder="123" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="address">Dirección de Envío</label>
+            <input type="text" id="address" placeholder="Calle, Ciudad, País" required />
+          </div>
+          <button type="submit" class="action-button primary">Pagar Ahora</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="profile-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Crear Cuenta</h2>
+        <form id="profile-form">
+          <div class="form-group">
+            <label for="first-name">Nombre</label>
+            <input type="text" id="first-name" placeholder="Miguel" required />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Apellido</label>
+            <input type="text" id="last-name" placeholder="Cabrera" required />
+          </div>
+          <button type="submit" class="action-button primary">Crear Cuenta</button>
+        </form>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
-</html></content>
+</html>
+</content>
 <parameter name="filePath">t:\FE2-P1-Miguel-Cabrera\cart.html
